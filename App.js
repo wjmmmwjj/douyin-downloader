@@ -17,7 +17,7 @@ import {
 import * as Clipboard from 'expo-clipboard';
 import { Paths } from 'expo-file-system';
 import { createDownloadResumable } from 'expo-file-system/legacy';
-import * as MediaLibrary from 'expo-media-library';
+import * as MediaLibrary from 'expo-media-library/legacy';
 import { extractUrl, fetchNoWatermarkVideo } from './src/utils/douyinParser';
 
 export default function App() {
